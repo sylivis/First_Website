@@ -1,0 +1,121 @@
+body{
+    background-image: url(images/view.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+h1 {
+    color: rgb(221, 254, 255);
+    background-color: rgba(74, 186, 194, 0.356);
+    text-shadow: 10px;
+    width: 100%;
+    text-size-adjust: 60px;
+    margin-top: 13%;
+    text-decoration: solid;
+    
+}
+span{
+    text-decoration:underline ;
+}
+div.main{
+    position: relative;
+    top: 13%;
+    background: rgba(177, 230, 245, 0.861);
+    border-style: groove;
+    border-width: medium;
+    border-color: rgb(70, 179, 240, .80);
+    border-radius: 25px;
+    margin: 4% 5% 550px; 
+    display: inline-block;
+    padding: top 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+
+#navbar{
+    position:inherit
+
+}
+li.nav {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    
+}
+a.nav:link{
+    position: relative;
+    text-decoration:none;
+    border-radius: 30px;
+    display: inline-block;
+    color:rgba(0, 0, 0, 1);
+    list-style-type: none;
+    text-align: justify;
+    padding: 10px;
+    border-style: ridge;
+
+}
+#aboutPic{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+div.about {
+    text-indent: 10%;
+
+}
+a.nav:hover, a.nav:active {
+    background-color: rgba(177, 230, 245,   1);
+    display: inline-block;
+}
+div.post {
+    text-indent: 10%;
+}
+.contactheading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form {
+    margin-bottom: 5%;
+    text-indent: 0;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: rgba(210, 238, 255, 0.8);
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+imput[type=submit] {
+    background-color: aqua;
+}
+
+  input[type=submit]:hover {
+    border: none;
+    background-color: rgba(177, 230, 245,   1);
+  }
+  copy {
+      position: absolute;
+      bottom: 7px;
+      right: 7px;
+      color: aliceblue;
+  }
+
+  
+
+
+
+   
